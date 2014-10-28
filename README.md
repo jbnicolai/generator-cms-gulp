@@ -1,19 +1,19 @@
-generator-tmproject-gulp
+generator-cms-gulp
 ===================
 
-This is a project generator to quick start a new web project. This Yeoman generator will set up your directories and provide you with two Gulp tasks: `$ gulp` for development and `$ gulp build` to compile your project.
+Yeoman generator that scaffolds out a new web project that uses a CMS like Craft, ExpressionEngine, or Wordpress. This Yeoman generator will set up your directories and provide you with two Gulp tasks: `$ gulp` for development and `$ gulp build` to compile your project.
 
 ## Requirements
 * [node.js](http://nodejs.org/)
 * [Gulp](http://gulpjs.com/) `$ npm install -g gulp`
 * [Yeoman](http://yeoman.io/) `$ npm install -g yo`
 
-## Installing generator-tmproject-gulp
-Run `$ npm install -g generator-tmproject-gulp`
+## Installing generator-cms-gulp
+Run `$ npm install -g generator-cms-gulp`
 
 ## Setup a new project
 1. Create an empty directory for your project: `$ mkdir ~/Sites/my_new_project && cd $_`
-2. Run the generator: `$ yo tmproject-gulp`
+2. Run the generator: `$ yo cms-gulp`
 
 ## Project directories
 You will be asked a couple basic questions to start your project up. When you are done you should have a project directory that looks like this:
@@ -23,7 +23,7 @@ You will be asked a couple basic questions to start your project up. When you ar
   + bower_components/
   + assets/images/
   + assets/javascripts/
-  + assets/stylesheets/  
+  + assets/stylesheets/
   .htaccess
   index.html
 + dist
@@ -78,6 +78,8 @@ This is the compiled version of your web project. You deploy this, and only this
 - `package.json`: A list of dependencies for the Gulp tasks.
 
 ## Release History
+* 2014-10-28 - v1.1.0 - Remove "tmproject" :)
+
 * 2014-9-30 - v1.0.7 - Replace gulp-useref with gulp-usemin
 
 * 2014-7-20 - v1.0.0 - Initial release

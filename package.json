@@ -1,14 +1,14 @@
 {
-  "name": "generator-tmproject-gulp",
+  "name": "generator-cms-gulp",
   "version": "1.0.7",
-  "description": "Yeoman generator",
+  "description": "Yeoman generator that scaffolds out a new web project that uses a CMS like Craft, ExpressionEngine, or Wordpress.",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "trendyminds/generator-tmproject-gulp",
+  "repository": "0ndre/generator-cms-gulp",
   "author": {
-    "name": "Joshua Roof",
-    "email": "josh.roof@gmail.com",
-    "url": "https://github.com/trendyminds"
+    "name": "André Lee",
+    "email": "andrelee0@gmail.com",
+    "url": "https://github.com/0ndre"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -20,7 +20,12 @@
     "app"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "cms",
+    "craft",
+    "gulp",
+    "expressionengine",
+    "wordpress"
   ],
   "dependencies": {
     "yeoman-generator": "~0.16.0",

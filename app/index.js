@@ -6,7 +6,7 @@ var yosay = require('yosay');
 var chalk = require('chalk');
 
 
-var TmprojectGulpGenerator = yeoman.generators.Base.extend({
+var CmsGulpGenerator = yeoman.generators.Base.extend({
   init: function () {
     this.pkg = require('../package.json');
 
@@ -25,7 +25,7 @@ var TmprojectGulpGenerator = yeoman.generators.Base.extend({
     var done = this.async();
 
     // Have Yeoman greet the user.
-    this.log(yosay('Welcome to the marvelous TmprojectGulp generator!'));
+    this.log(yosay('Welcome to the marvelous CmsGulp generator!'));
 
     var prompts = [{
       name: 'projectName',
@@ -99,4 +99,4 @@ var TmprojectGulpGenerator = yeoman.generators.Base.extend({
   }
 });
 
-module.exports = TmprojectGulpGenerator;
+module.exports = CmsGulpGenerator;
