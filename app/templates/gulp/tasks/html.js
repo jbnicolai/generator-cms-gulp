@@ -10,8 +10,8 @@ gulp.task('html', function () {
   return gulp.src(globals.appPath + '/' + globals.wrapper)
     .pipe(usemin({
       outputRelativePath: './',
-      css: [csso(), rev()],
-      js: [uglify(), rev()]
+      css: [csso()],
+      js: [uglify()]
     }))
     .pipe(gulp.dest(globals.distPath));
 
