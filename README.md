@@ -78,6 +78,8 @@ This is the compiled version of your web project. You deploy this, and only this
 - `package.json`: A list of dependencies for the Gulp tasks.
 
 ## Release History
+* 2014-10-28 - v1.1.1 - Remove rev from html task
+
 * 2014-10-28 - v1.1.0 - Replace "tmproject" with "cms" :)
 
 * 2014-9-30 - v1.0.7 - Replace gulp-useref with gulp-usemin
